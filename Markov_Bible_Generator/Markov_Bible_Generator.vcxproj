@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="file_loader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MarkovChainGenerator.cpp" />
+    <ClCompile Include="QuoteGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="file_loader.h" />
+    <ClInclude Include="MarkovChainGenerator.h" />
+    <ClInclude Include="QuoteGenerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
